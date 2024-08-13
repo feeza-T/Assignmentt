@@ -1,0 +1,64 @@
+@media screen and (max-width: 576px) {
+    .nav-hamburger-menu {
+        display: block;
+    }
+    nav ul {
+        display: none;
+    }
+
+   
+    nav {
+        margin:20px 50px;
+        justify-content: space-between;
+         
+    }
+    .nav-title {
+        font-size: 30px;
+        margin-left: 0;
+        
+    }
+    .banner-pic,.banner-title{
+       padding: 0;
+       margin-top: 0;
+    }
+    .banner-title{
+        font-size: 3rem;
+    }
+    .banner-des{
+        font-size: 1rem;
+        padding-right: 150px;
+    }
+
+    .banner, .second-title {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner {
+        margin: 0; 
+        padding: 20px;
+    }
+
+    .second {
+        margin-top: 400px;
+         margin-left: 0;
+       
+        width: auto;
+    }
+
+    .second-page-img {
+        grid-template-columns: 1fr;
+        gap: 20px; 
+    }
+    .habit {
+        width: 100%; 
+    }
+    .habit-title{
+        font-size: 25px;
+    }
+    .habit-des{
+        font-size: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
