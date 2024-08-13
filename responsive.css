@@ -61,4 +61,25 @@
         padding-left: 50px;
         padding-right: 50px;
     }
+    .run{
+        flex-direction: column;
+        width: calc(100% - 60px); 
+        height: auto;
+        margin: 1150px 20px 10px 20px;
+        padding-right: 30px;
+        overflow-x: hidden;
+    }
+    .run-content-left{
+        width:100%;
+        padding-left: 30px;
+        padding-right: 60px;
+      }
+      .run-content-right{
+        width:100%;
+      }
+    .run-pic{
+        height: 170px;
+        width:95%;
+        justify-content: center;
+    }
 }
