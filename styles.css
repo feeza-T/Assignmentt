@@ -59,8 +59,9 @@ body {
     height: 755px;
     width: 100%; 
     max-width: 1440px; 
-    background-color: #111111;
+    background: linear-gradient(to bottom, black, rgba(169, 169, 169, 0.212), black);
 }
+
 
 nav {
     display: flex;
@@ -106,12 +107,13 @@ nav li a {
 .banner {
     justify-content: space-between;
     margin: 0 35px 0 180px;
+    display: flex;
 }
 
 .banner-pic {
     width: 350px;
     height: 579px;
-    padding-right: 180px;
+    margin-right: 120px;
 }
 
 .banner-des {
@@ -126,6 +128,54 @@ nav li a {
 .banner-content {
     max-width: 520px;
 }
+.banner-image-container {
+    position: relative;
+    display: inline-block; /* Keeps the container the same size as the image */
+}
+
+.banner-pic {
+    display: block; /* Ensures the image takes up the full space within its container */
+   
+    height: auto;
+}
+
+.btn-container {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-180%, -0%); 
+    text-align: center;
+}
+
+.btn-1,.btn-2 {
+    width: 193px;
+    height: 98px;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgba(124, 116, 116, 0.5);
+    border: none;
+   
+}
+#btn-nmbr{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+
+}
+#btn-des{
+    color: rgba(169, 169, 169, 0.87);
+}
+.btn-container2 {
+    position: absolute;
+    width: 193px;
+    height: 98px;
+    top: 40%;
+    left: 120%;
+    transform: translate(-180%, -50%); 
+   
+}
 
 .second-btn {
     background-color: #111111;
@@ -134,6 +184,7 @@ nav li a {
     border-radius: 39px;
     border: 0.5px white solid;
 }
+
 
 .second {
     height:465px;
@@ -231,11 +282,12 @@ border-radius: 18px;
     position: absolute;
     bottom: 20px;
     margin: 0; 
+   padding-left: 5px;
 }
 .trainer-content p{
     position: absolute;
     bottom:10px;
-    margin:20px;
+    margin:5px;
     font-size: 0.5rem;
 }
 .bmi{
@@ -312,7 +364,7 @@ td,th{
     background-color: transparent;
 }
 
-.bmi-table h1, .bmi-input h1, .bmi-input p {
+.bmi-table h1, .bmi-input h1 {
     color: #fff;
 }
 
@@ -353,6 +405,47 @@ td,th{
     margin: 20px 0; 
 }
 
+.review {
+    width: 100%;
+    height:480px;
+    max-width: 1440px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.377);
+  }
+  
+  .review__container {
+    display: flex;
+    gap: 5rem;
+  }
+  
+  
+  .review__content h4 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--white);
+  }
+  
+  .review__content p {
+    color: #777777;
+    font-size: 1.75rem;
+  }
+
+  
+  .review__member {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  
+  .review__member img {
+    max-width: 100px;
+    border-radius: 100%;
+  }
+  .review__member__details h2, .review__member__details p{
+       margin-top: 0;
+       margin-bottom: 0;
+  }
 
 
 

@@ -16,10 +16,21 @@
         margin-left: 0;
         
     }
-    .banner-pic,.banner-title{
-       padding: 0;
-       margin-top: 0;
+    .firstpage{
+        height: auto;
+        margin-left: 10px;
+        overflow-x: hidden;
+        background: linear-gradient(to bottom, black, rgba(75, 15, 15, 0), black);
     }
+    .banner-pic,.banner-title{
+       padding:0;
+       margin-top: 0;
+       
+    }
+    .banner-pic{
+        margin-left: 100px;
+    }
+
     .banner-title{
         font-size: 3rem;
     }
@@ -27,7 +38,16 @@
         font-size: 1rem;
         padding-right: 150px;
     }
-
+    .btn-container {
+        top: 40%;
+        left: 70%;
+    }
+    .btn-container2 {
+        top: 15%;
+        left: 120%;
+        transform: translate(-180%, -50%); 
+       
+    }
     .banner, .second-title {
         flex-direction: column;
         align-items: center;
@@ -39,9 +59,8 @@
     }
 
     .second {
-        margin-top: 400px;
-         margin-left: 0;
        
+         margin-left: 0;
         width: auto;
     }
 
@@ -106,10 +125,30 @@
     .trainer-content p{
         margin-bottom: 0px;
     }
+    .Bmi-section{
+        flex-direction: column;
+        height: auto;
+    }
+    .bmi-page{
+        flex-direction: column;
+        height:auto;
+        padding:20px;
+    }
+    .bmi{
+        padding:10px;
+        margin:0;
+        height:auto;
+        width: 100%;;
+    }
+    
+    .bmi-input{
+        width:100%;
+    }
     .footer {
-        margin-top:1300px;
+        margin-top:100px;
         height: auto;
         padding: 10px;
+        margin-left: 10px;
     }
 
     .first-footer {
@@ -127,13 +166,20 @@
     }
 
     .first-get, .second-get {
-        margin-right: 0; /* Remove margin-right for smaller screens */
-        margin-bottom: 20px; /* Add space between the lists */
+        margin-right: 0; 
+        margin-bottom: 20px; 
     }
     
     .footer-line {
         width: 100%;
         margin-top: 20px;
     }
+    .review {
+        width: 100%;
+        height:auto;
+        max-width: 1440px;
+        margin-top: 1300px;
+        background-color: rgba(0, 0, 0, 0.377);
+      }
     
 }
