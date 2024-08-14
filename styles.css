@@ -238,7 +238,25 @@ border-radius: 18px;
     margin:20px;
     font-size: 0.5rem;
 }
-.footer {
+.bmi{
+    width: 671px;
+    height: 120px;
+    margin-left: 385px;
+}
+table{
+    width: 310px;
+    height: 216px;
+    border-collapse: collapse;
+}
+thead{
+    font-size: 16px;
+}
+td,th{
+    border: 1px solid darkgray;
+    padding: 5px 10px;
+}
+
+.footer ,.bmi-page{
     width: 100%;
     height:400px;
     max-width: 1440px;
@@ -250,6 +268,54 @@ border-radius: 18px;
     justify-content: space-between;
     margin-top: 50px;
 }
+.bmi-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.bmi-input {
+    width: 50%;
+    background-color: transparent;
+}
+
+.input-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 10px;
+}
+
+.input-box input,
+.input-box select,
+.input-box button {
+    width: calc(50% - 30px); 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: transparent;
+    margin-top: 5px;
+    color: darkgray; 
+}
+
+
+
+.input-box button {
+    background-color: #ff6a00; 
+    color: white;
+    border: none;
+    margin-top: 50px;
+}
+
+.input-box select {
+    background-color: transparent;
+}
+
+.bmi-table h1, .bmi-input h1, .bmi-input p {
+    color: #fff;
+}
+
 .first-footer{
     width:100%;
     margin-top: 50px;
